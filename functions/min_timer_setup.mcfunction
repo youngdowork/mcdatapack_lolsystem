@@ -1,0 +1,2 @@
+execute unless entity @e[type=armor_stand,tag=min_timer] run summon armor_stand 970 7 1035 {CustomNameVisible:1b,Invulnerable:1b,PersistenceRequired:1b,Tags:["min_timer"],CustomName:'{"text":"min_timer"}'}
+execute unless entity @e[type=armor_stand,tag=am_timer] run summon armor_stand 985 7 907 {CustomNameVisible:1b,NoGravity:1b,Invulnerable:1b,PersistenceRequired:1b,Tags:["am_timer"],CustomName:'{"text":"am_timer"}'}

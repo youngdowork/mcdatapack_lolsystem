@@ -1,0 +1,43 @@
+#
+execute if entity @e[scores={game_timer=1..3600}] run summon wolf -5 12 -48 {OnGround:1b,CustomNameVisible:1b,Team:"blue",PersistenceRequired:1b,Health:20f,Tags:["blue_min_bot","path_211","move"],CustomName:'{"text":"블루팀 바텀 미니언","color":"blue"}',Attributes:[{Name:generic.max_health,Base:20},{Name:generic.follow_range,Base:27},{Name:generic.knockback_resistance,Base:0},{Name:generic.attack_damage,Base:4},{Name:generic.armor,Base:0},{Name:generic.armor_toughness,Base:0}]}
+#
+execute if entity @e[scores={game_timer=1..3600}] run summon wolf -8 12 -26 {OnGround:1b,CustomNameVisible:1b,Team:"blue",PersistenceRequired:1b,Health:20f,Tags:["blue_min_mid","path_221","move"],CustomName:'{"text":"블루팀 미드 미니언","color":"blue"}',Attributes:[{Name:generic.max_health,Base:20},{Name:generic.follow_range,Base:27},{Name:generic.knockback_resistance,Base:0},{Name:generic.attack_damage,Base:4},{Name:generic.armor,Base:0},{Name:generic.armor_toughness,Base:0}]}
+#
+execute if entity @e[scores={game_timer=1..3600}] run summon wolf -31 12 -25 {OnGround:1b,CustomNameVisible:1b,Team:"blue",PersistenceRequired:1b,Health:20f,Tags:["blue_min_top","path_231","move"],CustomName:'{"text":"블루팀 탑 미니언","color":"blue"}',Attributes:[{Name:generic.max_health,Base:20},{Name:generic.follow_range,Base:27},{Name:generic.knockback_resistance,Base:0},{Name:generic.attack_damage,Base:4},{Name:generic.armor,Base:0},{Name:generic.armor_toughness,Base:0}]}
+#
+#
+execute if entity @e[scores={game_timer=3601..7200}] run summon wolf -5 12 -48 {OnGround:1b,CustomNameVisible:1b,Team:"blue",PersistenceRequired:1b,Health:25f,Tags:["blue_min_bot","path_211","move"],CustomName:'{"text":"블루팀 바텀 미니언","color":"blue"}',Attributes:[{Name:generic.max_health,Base:25},{Name:generic.follow_range,Base:27},{Name:generic.knockback_resistance,Base:0},{Name:generic.attack_damage,Base:5},{Name:generic.armor,Base:0},{Name:generic.armor_toughness,Base:0}]}
+#
+execute if entity @e[scores={game_timer=3601..7200}] run summon wolf -8 12 -26 {OnGround:1b,CustomNameVisible:1b,Team:"blue",PersistenceRequired:1b,Health:25f,Tags:["blue_min_mid","path_221","move"],CustomName:'{"text":"블루팀 미드 미니언","color":"blue"}',Attributes:[{Name:generic.max_health,Base:25},{Name:generic.follow_range,Base:27},{Name:generic.knockback_resistance,Base:0},{Name:generic.attack_damage,Base:5},{Name:generic.armor,Base:0},{Name:generic.armor_toughness,Base:0}]}
+#
+execute if entity @e[scores={game_timer=3601..7200}] run summon wolf -31 12 -25 {OnGround:1b,CustomNameVisible:1b,Team:"blue",PersistenceRequired:1b,Health:25f,Tags:["blue_min_top","path_231","move"],CustomName:'{"text":"블루팀 탑 미니언","color":"blue"}',Attributes:[{Name:generic.max_health,Base:25},{Name:generic.follow_range,Base:27},{Name:generic.knockback_resistance,Base:0},{Name:generic.attack_damage,Base:5},{Name:generic.armor,Base:0},{Name:generic.armor_toughness,Base:0}]}
+#
+#
+execute if entity @e[scores={game_timer=7201..10800}] run summon wolf -5 12 -48 {OnGround:1b,CustomNameVisible:1b,Team:"blue",PersistenceRequired:1b,Health:30f,Tags:["blue_min_bot","path_211","move"],CustomName:'{"text":"블루팀 바텀 미니언","color":"blue"}',Attributes:[{Name:generic.max_health,Base:30},{Name:generic.follow_range,Base:27},{Name:generic.knockback_resistance,Base:0},{Name:generic.attack_damage,Base:6},{Name:generic.armor,Base:0},{Name:generic.armor_toughness,Base:0}]}
+#
+execute if entity @e[scores={game_timer=7201..10800}] run summon wolf -8 12 -26 {OnGround:1b,CustomNameVisible:1b,Team:"blue",PersistenceRequired:1b,Health:30f,Tags:["blue_min_mid","path_221","move"],CustomName:'{"text":"블루팀 미드 미니언","color":"blue"}',Attributes:[{Name:generic.max_health,Base:30},{Name:generic.follow_range,Base:27},{Name:generic.knockback_resistance,Base:0},{Name:generic.attack_damage,Base:6},{Name:generic.armor,Base:0},{Name:generic.armor_toughness,Base:0}]}
+#
+execute if entity @e[scores={game_timer=7201..10800}] run summon wolf -31 12 -25 {OnGround:1b,CustomNameVisible:1b,Team:"blue",PersistenceRequired:1b,Health:30f,Tags:["blue_min_top","path_231","move"],CustomName:'{"text":"블루팀 탑 미니언","color":"blue"}',Attributes:[{Name:generic.max_health,Base:30},{Name:generic.follow_range,Base:27},{Name:generic.knockback_resistance,Base:0},{Name:generic.attack_damage,Base:6},{Name:generic.armor,Base:0},{Name:generic.armor_toughness,Base:0}]}
+#
+#
+execute if entity @e[scores={game_timer=10801..14400}] run summon wolf -5 12 -48 {OnGround:1b,CustomNameVisible:1b,Team:"blue",PersistenceRequired:1b,Health:35f,Tags:["blue_min_bot","path_211","move"],CustomName:'{"text":"블루팀 바텀 미니언","color":"blue"}',Attributes:[{Name:generic.max_health,Base:35},{Name:generic.follow_range,Base:27},{Name:generic.knockback_resistance,Base:0},{Name:generic.attack_damage,Base:7},{Name:generic.armor,Base:0},{Name:generic.armor_toughness,Base:0}]}
+#
+execute if entity @e[scores={game_timer=10801..14400}] run summon wolf -8 12 -26 {OnGround:1b,CustomNameVisible:1b,Team:"blue",PersistenceRequired:1b,Health:35f,Tags:["blue_min_mid","path_221","move"],CustomName:'{"text":"블루팀 미드 미니언","color":"blue"}',Attributes:[{Name:generic.max_health,Base:35},{Name:generic.follow_range,Base:27},{Name:generic.knockback_resistance,Base:0},{Name:generic.attack_damage,Base:7},{Name:generic.armor,Base:0},{Name:generic.armor_toughness,Base:0}]}
+#
+execute if entity @e[scores={game_timer=10801..14400}] run summon wolf -31 12 -25 {OnGround:1b,CustomNameVisible:1b,Team:"blue",PersistenceRequired:1b,Health:35f,Tags:["blue_min_top","path_231","move"],CustomName:'{"text":"블루팀 탑 미니언","color":"blue"}',Attributes:[{Name:generic.max_health,Base:35},{Name:generic.follow_range,Base:27},{Name:generic.knockback_resistance,Base:0},{Name:generic.attack_damage,Base:7},{Name:generic.armor,Base:0},{Name:generic.armor_toughness,Base:0}]}
+#
+#
+execute if entity @e[scores={game_timer=14401..18000}] run summon wolf -5 12 -48 {OnGround:1b,CustomNameVisible:1b,Team:"blue",PersistenceRequired:1b,Health:40f,Tags:["blue_min_bot","path_211","move"],CustomName:'{"text":"블루팀 바텀 미니언","color":"blue"}',Attributes:[{Name:generic.max_health,Base:40},{Name:generic.follow_range,Base:27},{Name:generic.knockback_resistance,Base:0},{Name:generic.attack_damage,Base:8},{Name:generic.armor,Base:0},{Name:generic.armor_toughness,Base:0}]}
+#
+execute if entity @e[scores={game_timer=14401..18000}] run summon wolf -8 12 -26 {OnGround:1b,CustomNameVisible:1b,Team:"blue",PersistenceRequired:1b,Health:40f,Tags:["blue_min_mid","path_221","move"],CustomName:'{"text":"블루팀 미드 미니언","color":"blue"}',Attributes:[{Name:generic.max_health,Base:40},{Name:generic.follow_range,Base:27},{Name:generic.knockback_resistance,Base:0},{Name:generic.attack_damage,Base:8},{Name:generic.armor,Base:0},{Name:generic.armor_toughness,Base:0}]}
+#
+execute if entity @e[scores={game_timer=14401..18000}] run summon wolf -31 12 -25 {OnGround:1b,CustomNameVisible:1b,Team:"blue",PersistenceRequired:1b,Health:40f,Tags:["blue_min_top","path_231","move"],CustomName:'{"text":"블루팀 탑 미니언","color":"blue"}',Attributes:[{Name:generic.max_health,Base:40},{Name:generic.follow_range,Base:27},{Name:generic.knockback_resistance,Base:0},{Name:generic.attack_damage,Base:8},{Name:generic.armor,Base:0},{Name:generic.armor_toughness,Base:0}]}
+#
+#
+execute if entity @e[scores={game_timer=18001..}] run summon wolf -5 12 -48 {OnGround:1b,CustomNameVisible:1b,Team:"blue",PersistenceRequired:1b,Health:45f,Tags:["blue_min_bot","path_211","move"],CustomName:'{"text":"블루팀 바텀 미니언","color":"blue"}',Attributes:[{Name:generic.max_health,Base:45},{Name:generic.follow_range,Base:27},{Name:generic.knockback_resistance,Base:0},{Name:generic.attack_damage,Base:9},{Name:generic.armor,Base:0},{Name:generic.armor_toughness,Base:0}]}
+#
+execute if entity @e[scores={game_timer=18001..}] run summon wolf -8 12 -26 {OnGround:1b,CustomNameVisible:1b,Team:"blue",PersistenceRequired:1b,Health:45f,Tags:["blue_min_mid","path_221","move"],CustomName:'{"text":"블루팀 미드 미니언","color":"blue"}',Attributes:[{Name:generic.max_health,Base:45},{Name:generic.follow_range,Base:27},{Name:generic.knockback_resistance,Base:0},{Name:generic.attack_damage,Base:9},{Name:generic.armor,Base:0},{Name:generic.armor_toughness,Base:0}]}
+#
+execute if entity @e[scores={game_timer=18001..}] run summon wolf -31 12 -25 {OnGround:1b,CustomNameVisible:1b,Team:"blue",PersistenceRequired:1b,Health:45f,Tags:["blue_min_top","path_231","move"],CustomName:'{"text":"블루팀 탑 미니언","color":"blue"}',Attributes:[{Name:generic.max_health,Base:45},{Name:generic.follow_range,Base:27},{Name:generic.knockback_resistance,Base:0},{Name:generic.attack_damage,Base:9},{Name:generic.armor,Base:0},{Name:generic.armor_toughness,Base:0}]}
+#
+

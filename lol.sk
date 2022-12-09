@@ -1,0 +1,63 @@
+on load:
+    set {teamselect} to 0
+
+on drop:
+     cancel event
+
+on damage of wolf:
+    damage was caused by fall
+    cancel event
+
+on damage:
+    damage was caused by suffocation
+    cancel event
+        
+on join:
+    set join message to "&8[&a+&8]&r %player%"
+    wait 100 ticks
+    if {teamselect} is 1:
+        make console execute command "gamerule sendCommandFeedback false"
+        make console execute command "op %player%"
+        make console execute command "execute as %player% run function lol:join_red_during"
+        make console execute command "deop %player%"
+        make console execute command "gamerule sendCommandFeedback true"
+        add 1 to {teamselect}
+    else if {teamselect} is 2:
+        make console execute command "gamerule sendCommandFeedback false"
+        make console execute command "op %player%"
+        make console execute command "execute as %player% run function lol:join_blue_during"
+        make console execute command "deop %player%"
+        make console execute command "gamerule sendCommandFeedback true"
+        remove 1 from {teamselect}
+    else if {teamselect} is 0:
+        make console execute command "gamemode adventure %player%"        
+
+on quit:
+    set quit message to "&8[&c-&8]&7 %player%"
+#    make console execute command "playsound minecraft:lol.disconnect master @a ~ ~ ~ 100 1 1"
+
+
+command /gamestart:
+    trigger:
+        if player is op or console:
+            make console execute command "playsound minecraft:lol.start_10sec master @a ~ ~ ~ 100 1 1"
+            wait 200 ticks
+            make console execute command "function lol:game_start"
+            set {teamselect} to 1
+
+command /gamestop:
+	trigger:
+		if player is op or console:
+			set {teamselect} to 0
+
+command /redjoin [<player>]:
+	trigger:
+		if player is op or console:
+			make console execute command "execute as %arg 1% run function lol:join_red_during"
+
+command /bluejoin [<player>]:
+	trigger:
+		if player is op or console:
+			make console execute command "execute as %arg 1% run function lol:join_blue_during"
+
+
